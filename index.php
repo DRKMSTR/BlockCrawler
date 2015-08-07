@@ -38,6 +38,8 @@
 		
 		$network_info = getinfo ();
 		
+		<input type="button" value="Say Hi!" onclick="location='test.php'" />
+		
 		echo "		<div class=\"node_detail\">\n";
 		echo "			<span class=\"node_desc\">Block Count:</span><br>\n";
 		echo "			".$network_info["blocks"]."\n";
@@ -108,7 +110,7 @@
 	site_footer ();
 
 /******************************************************************************
-	This script is Copyright © 2013 Jake Paysnoe.
+	This script is Copyright Â© 2013 Jake Paysnoe.
 	I hereby release this script into the public domain.
 	Jake Paysnoe Jun 26, 2013
 ******************************************************************************/
